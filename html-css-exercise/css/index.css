@@ -8,6 +8,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
     align-items: center;
+    background-image: url(../images/backimage.jpg);
+    background-size: cover;
+    
 }
 
 .header {
