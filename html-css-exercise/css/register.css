@@ -1,0 +1,83 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header nav a{
+    margin-right: 2em;
+    float:right;
+}
+
+.header h1 {
+    color: white;
+}
+
+.frame {
+    flex: 1;
+    display: flex;
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 10vh;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+
+.frame .head {
+    height: 5vw;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frame .head h2{
+    height: 5vw;
+    line-height: 5vw;
+    width: 50%;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.frame .head .right {
+    background-color: aquamarine;
+}
+
+.frame .input {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 80%;
+    margin: 5% auto;
+    justify-content: space-between;
+}
+
+.input .shuru input{
+    border: 2px solid black;
+    width: 100%;
+    height: 3vh;
+}
+
+button {
+    margin-top: 5%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: red;
+    height: 5vh;
+}
