@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 1. 引入jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- 2. 引入jQuery Validation -->
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.5/jquery.validate.min.js"></script>
+</head>
+<body>
+    <!-- 测试表单 -->
+    <form id="testForm">
+        <input type="text" name="testField" required>
+        <button type="submit">提交</button>
+    </form>
+
+    <script>
+        $(document).ready(function() {
+            // 3. 初始化表单验证
+            $("#testForm").validate();
+            
+            // 4. 验证提交行为
+            $("#testForm").on("submit", function(e) {
+                e.preventDefault();
+                alert(
+                    "表单验证状态: " + $(this).valid() + 
+                    "\n验证器对象: " + (typeof $.validator)
+                );
+            });
+        });
+    </script>
+</body>
+</html>
