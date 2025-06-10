@@ -3,4 +3,5 @@
 学习进度更新中呼呼～<br>
 6.4 已学习至2 Git服务器<br>
 6.5 已学习至3.2 HTML<br>
-6.6 已学习至3.4JavaScript 
+6.6 已学习至3.4JavaScript<br>
+6.9 已学习至3.5jQuery 
